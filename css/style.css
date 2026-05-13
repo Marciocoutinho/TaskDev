@@ -69,3 +69,8 @@ input[type="text"] {
   border: 0.0625rem solid var(--border-light);
   font-size: 1rem;
 }
+
+input[type="text"]:focus {
+  outline: nome;
+  border-color: var(--accent);
+}
